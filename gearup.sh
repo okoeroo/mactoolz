@@ -47,6 +47,7 @@ sudo id -a
 brew_install automake
 brew_install dos2unix
 brew_install gettext
+brew_install ipcalc
 
 brew_install nmap
 brew_install hydra
@@ -72,7 +73,14 @@ brew_install arp-scan
 brew_install arping
 brew_install arp-sk
 brew_install docker
-brew_install signal
+
+brew_install autopsy
+brew_install sleuthkit
+
+# CASK
+brew_install vlc cask
+brew_install kodi cask
+brew_install signal cask
 brew_install libreoffice cask
 brew_install gimp cask
 brew_install inkscape cask
@@ -80,6 +88,10 @@ brew_install macvim cask
 brew_install mattermost cask
 brew_install jitsi-meet cask
 brew_install whatsapp cask
+brew_install discord cask
+brew_install utm cask
+brew_install transmission cask
+brew_install citrix-workspace cask
 
 
 brew_install brew-pip
